@@ -1,0 +1,15 @@
+---
+1: !ruby/object:RPG::MapInfo
+  scroll_x: 830
+  name: MAP001
+  expanded: true
+  order: 1
+  scroll_y: 520
+  parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: raz's house
+  expanded: false
+  order: 2
+  scroll_y: 320
+  parent_id: 1
