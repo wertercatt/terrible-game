@@ -1190,8 +1190,13 @@
       turn_b: 0
   id: 37
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 35
+  name: Cate
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

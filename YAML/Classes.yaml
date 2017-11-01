@@ -362,7 +362,23 @@
   name: Slime
   learnings: []
   id: 3
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.04
   note: ''
   params: !ruby/object:Table
     dim: 2
@@ -479,7 +495,15 @@
   description: ''
 - !ruby/object:RPG::Class
   name: Niki
-  learnings: []
+  learnings:
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 131
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 130
+    note: ''
   id: 4
   features:
   - !ruby/object:RPG::BaseItem::Feature

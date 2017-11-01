@@ -175,7 +175,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}
-version_id: 46952074
+version_id: 65642740
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -184,10 +184,10 @@ switches:
 - raz in party
 - first waluigi win
 - niki in party
-- ''
-- ''
-- ''
-- ''
+- nyar in party
+- orange boulder ded
+- nyar quest received
+- cate beaten
 - ''
 - ''
 - ''
@@ -369,6 +369,7 @@ armor_types:
 - Heavy Armour
 - Small Shield
 - Large Shield
+- Slime
 currency_unit: G
 window_tone: !ruby/object:Tone {r: -34.0, g: 0.0, b: 68.0, a: 0.0}
 japanese: false

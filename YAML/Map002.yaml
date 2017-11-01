@@ -384,7 +384,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [GET READY FOR WALUIGI TIME]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: Waluigi Pinball, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 35, false, false]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: You Will Know Our Names, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [YOU CHEATER! YOU CAN'T BEAT WALUIGI.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}

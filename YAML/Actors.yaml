@@ -62,14 +62,18 @@
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Nyar
-  face_index: 3
+  face_index: 6
   character_index: 6
   initial_level: 1
-  face_name: Monster1
+  face_name: vxace-monster-kao6
   class_id: 3
   character_name: Monster2
   id: 4
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 7
+    value: 0.0
   note: ''
   equips:
   - 0

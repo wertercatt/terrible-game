@@ -1,11 +1,11 @@
 ---
 - 
 - !ruby/object:RPG::Item
-  description: Recovers 500 HP.
-  name: Potion
+  description: "Chewy and delicious.\r\nRecovers 500 HP."
+  name: Cheese
   consumable: true
   occasion: 0
-  icon_index: 192
+  icon_index: 301
   price: 50
   scope: 7
   animation_id: 37
@@ -31,11 +31,11 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers 2,500 HP.
-  name: Hi-Potion
+  description: "Extra chewy and delicious. \r\nRecovers 2,500 HP."
+  name: Hi-Cheese
   consumable: true
   occasion: 0
-  icon_index: 192
+  icon_index: 301
   price: 150
   scope: 7
   animation_id: 37
@@ -61,11 +61,11 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers all HP.
-  name: Full Potion
+  description: "the joke has run its course\r\nRecovers all HP."
+  name: Full Cheese
   consumable: true
   occasion: 0
-  icon_index: 192
+  icon_index: 301
   price: 450
   scope: 7
   animation_id: 37
@@ -91,12 +91,12 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers 200 MP.
-  name: Magic Water
+  description: "all hail \\o/\r\nRecovers 50 MP."
+  name: egg
   consumable: true
   occasion: 0
-  icon_index: 193
-  price: 300
+  icon_index: 299
+  price: 100
   scope: 7
   animation_id: 38
   note: ''
@@ -108,7 +108,7 @@
     code: 12
     data_id: 0
     value1: 0.0
-    value2: 200.0
+    value2: 50.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0

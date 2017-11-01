@@ -621,7 +621,7 @@
   etype_id: 0
   wtype_id: 4
 - !ruby/object:RPG::Weapon
-  description: The strength of the longest combat sword.
+  description: "The strength of the longest combat\r\nsword. If you know what I mean."
   name: Long Sword
   icon_index: 147
   price: 500
@@ -1577,9 +1577,9 @@
   etype_id: 0
   wtype_id: 8
 - !ruby/object:RPG::Weapon
-  description: Sturdy staff made of oak.
-  name: Wood Staff
-  icon_index: 152
+  description: Nice and peg-leggy.
+  name: Wooden Leg
+  icon_index: 476
   price: 100
   animation_id: 19
   note: ''
@@ -1609,9 +1609,9 @@
   etype_id: 0
   wtype_id: 9
 - !ruby/object:RPG::Weapon
-  description: An orb attached to this staff helps with casting magic.
-  name: Magic Staff
-  icon_index: 152
+  description: Nice and workable.
+  name: Plastic Leg
+  icon_index: 479
   price: 500
   animation_id: 19
   note: ''

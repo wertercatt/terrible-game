@@ -2391,11 +2391,11 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Cate
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: ''
+  battler_name: cate
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2419,7 +2419,7 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 150
   - 0
   - 10
   - 10

@@ -35,7 +35,7 @@
   message4: ' is freed of poison!'
   restriction: 0
   release_by_damage: false
-  message3: ' is hurt by poison!'
+  message3: ' is still poisoned!'
   note: ''
   id: 2
   features:
@@ -687,6 +687,36 @@
   steps_to_remove: 100
   remove_by_walking: false
   remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ' was burned!'
+  name: Burn
+  priority: 50
+  icon_index: 104
+  message1: ' was burned!'
+  message4: ' is no longer burned!'
+  restriction: 0
+  message3: ' is still burned!'
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.4
+  auto_removal_timing: 1
+  min_turns: 3
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
