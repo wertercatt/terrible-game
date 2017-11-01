@@ -761,8 +761,8 @@
   etype_id: 0
   wtype_id: 4
 - !ruby/object:RPG::Weapon
-  description: Has a slender sword inscription.
-  name: Katana
+  description: "Folded up to a million times to produce\r\nthe finest blades known to mankind."
+  name: Shitty Katana
   icon_index: 148
   price: 100
   animation_id: 7

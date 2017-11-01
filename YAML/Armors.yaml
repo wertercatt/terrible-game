@@ -1,8 +1,8 @@
 ---
 - 
 - !ruby/object:RPG::Armor
-  description: Very lightweight clothes.
-  name: Casual Clothes
+  description: Better than nudity. Probably.
+  name: Clothes
   icon_index: 168
   price: 100
   note: ''
@@ -116,9 +116,9 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Headband cloth that protects the head.
-  name: Bandana
-  icon_index: 162
+  description: Incredibly anime.
+  name: Scarf
+  icon_index: 448
   price: 100
   note: ''
   id: 6

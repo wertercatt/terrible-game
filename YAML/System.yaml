@@ -31,7 +31,7 @@ test_battlers:
   - 1
   - 0
 _: 7829367
-edit_map_id: 2
+edit_map_id: 1
 battle_end_me: !ruby/object:RPG::ME
   name: Victory1
   pitch: 100
@@ -174,8 +174,8 @@ variables:
 - ''
 - ''
 - ''
-battle_bgm: !ruby/object:RPG::BGM {name: You Will Know Our Names, volume: 100, pitch: 100}
-version_id: 4493761
+battle_bgm: !ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}
+version_id: 46952074
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -183,7 +183,7 @@ switches:
 - 
 - raz in party
 - first waluigi win
-- ''
+- niki in party
 - ''
 - ''
 - ''
@@ -282,7 +282,7 @@ switches:
 - ''
 - ''
 gameover_me: !ruby/object:RPG::ME
-  name: Gameover1
+  name: Organ
   pitch: 100
   volume: 100
 game_title: terrible game
@@ -295,7 +295,7 @@ terms: !ruby/object:RPG::System::Terms
   - DEF
   - MAT
   - MDF
-  - AGI
+  - FST
   - LUK
   etypes:
   - Weapon
@@ -304,8 +304,8 @@ terms: !ruby/object:RPG::System::Terms
   - Bodygear
   - Accessory
   commands:
-  - Fight
-  - Escape
+  - Wreck Shit
+  - Fuck Off
   - Attack
   - Guard
   - Items
@@ -377,7 +377,7 @@ opt_use_midi: false
 opt_transparent: false
 opt_followers: true
 opt_slip_death: false
-opt_extra_exp: false
+opt_extra_exp: true
 opt_display_tp: true
 battleback1_name: Grassland
 battleback2_name: Grassland

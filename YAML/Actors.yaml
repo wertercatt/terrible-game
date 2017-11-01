@@ -24,7 +24,7 @@
   name: Raz
   face_index: 0
   character_index: 0
-  initial_level: 1
+  initial_level: 2
   face_name: raz
   class_id: 2
   character_name: raz
@@ -34,7 +34,7 @@
   equips:
   - 25
   - 0
-  - 0
+  - 6
   - 1
   - 0
   nickname: weeb
@@ -44,7 +44,7 @@
   name: Nukat
   face_index: 0
   character_index: 0
-  initial_level: 1
+  initial_level: 3
   face_name: nukat
   class_id: 8
   character_name: nukat
@@ -61,44 +61,44 @@
   description: likes garbage anime, but not as garbage as raz
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Ernest
-  face_index: 4
-  character_index: 4
+  name: Nyar
+  face_index: 3
+  character_index: 6
   initial_level: 1
-  face_name: Actor4
-  class_id: 4
-  character_name: Actor4
+  face_name: Monster1
+  class_id: 3
+  character_name: Monster2
   id: 4
   features: []
   note: ''
   equips:
-  - 19
-  - 46
   - 0
-  - 1
   - 0
-  nickname: Magic Swordsman
-  description: "A wandering swordsman looking for his master.\r\nHe is one who has mastered the Magic Sword."
+  - 0
+  - 0
+  - 0
+  nickname: Hero of Slimes
+  description: what a great guy
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Ryoma
-  face_index: 6
-  character_index: 6
-  initial_level: 1
-  face_name: Actor4
-  class_id: 5
-  character_name: Actor4
+  name: Niki
+  face_index: 0
+  character_index: 0
+  initial_level: 3
+  face_name: niki
+  class_id: 4
+  character_name: nikinoglasses
   id: 5
   features: []
   note: ''
   equips:
-  - 25
+  - 49
   - 0
+  - 26
+  - 21
   - 0
-  - 1
-  - 0
-  nickname: Dawn's Edge
-  description: "He is the current owner of Takeshi's blade. His\r\nmovements are fluid and sharp like a knife."
+  nickname: artfriend
+  description: "makes draw good and doesn't afraid\r\nof anything"
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Brenda

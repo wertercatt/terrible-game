@@ -838,7 +838,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -867,7 +867,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -896,7 +896,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -925,7 +925,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -954,7 +954,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -993,7 +993,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1052,7 +1052,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1086,7 +1086,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1120,7 +1120,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1154,7 +1154,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1188,7 +1188,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1222,7 +1222,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1256,7 +1256,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1290,7 +1290,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1324,20 +1324,20 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Increase one ally's ATK.
-  name: Breath Weapon
+  message2: It inspired everyone! Attack increased!
+  description: Talk good. Make fight better.
+  name: Attack Speech
   occasion: 1
   icon_index: 34
-  message1: ' casts Breath Weapon!'
-  scope: 7
+  message1: ' makes a speech!'
+  scope: 8
   animation_id: 43
   note: ''
   mp_cost: 9
@@ -1358,20 +1358,20 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Increase one ally's DEF.
-  name: Breath Armour
+  message2: It inspired everyone! Defense increased!
+  description: Talk good. Make defend better.
+  name: Defense Speech
   occasion: 1
   icon_index: 35
-  message1: ' casts Breath Armour!'
-  scope: 7
+  message1: ' makes a speech!'
+  scope: 8
   animation_id: 43
   note: ''
   mp_cost: 8
@@ -1392,20 +1392,20 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Increase one ally's MDF.
-  name: Divine Breath
+  message2: It inspired everyone! Resistance increased!
+  description: Talk good. Make resist better.
+  name: Resist Speech
   occasion: 1
   icon_index: 37
-  message1: ' casts Divine Breath!'
-  scope: 7
+  message1: ' makes a speech!'
+  scope: 8
   animation_id: 43
   note: ''
   mp_cost: 7
@@ -1426,20 +1426,20 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Increase one ally's AGI.
-  name: Quick Move
+  message2: It inspired everyone! Fast increased!
+  description: Talk good. Make move better.
+  name: Fast Speech
   occasion: 1
   icon_index: 38
-  message1: ' casts Quick Move!'
-  scope: 7
+  message1: ' makes a speech!'
+  scope: 8
   animation_id: 43
   note: ''
   mp_cost: 6
@@ -1460,19 +1460,19 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Lower all enemies' ATK.
-  name: Curse Weapon
+  message2: Enemy discouraged! Attack decreased!
+  description: Talk shit. Make fight worse.
+  name: Attack Taunt
   occasion: 1
   icon_index: 50
-  message1: ' casts Curse Weapon!'
+  message1: ' talked shit!'
   scope: 2
   animation_id: 45
   note: ''
@@ -1494,19 +1494,19 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Lower all enemies' DEF.
-  name: Curse Armour
+  message2: Enemy discouraged! Defense decreased!
+  description: Talk shit. Make defend worse.
+  name: Defense Taunt
   occasion: 1
   icon_index: 51
-  message1: ' casts Curse Armour'
+  message1: ' talked shit!'
   scope: 2
   animation_id: 45
   note: ''
@@ -1528,19 +1528,19 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Lower all enemies' MDF.
-  name: Divine Curse
+  message2: Enemy discouraged! Resistance decreased!
+  description: Talk shit. Make resist worse.
+  name: Resist Taunt
   occasion: 1
   icon_index: 53
-  message1: ' casts Divine Curse!'
+  message1: ' talked shit!'
   scope: 2
   animation_id: 45
   note: ''
@@ -1562,19 +1562,19 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: Lower all enemies' AGI.
-  name: Slow Move
+  message2: Enemy discouraged! Fast decreased!
+  description: Talk shit. Make move worse.
+  name: Fast Taunt
   occasion: 1
   icon_index: 54
-  message1: ' casts Slow Move!'
+  message1: ' talked shit!'
   scope: 2
   animation_id: 45
   note: ''
@@ -1596,7 +1596,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1625,7 +1625,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1654,7 +1654,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1683,7 +1683,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1712,7 +1712,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1741,7 +1741,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1770,7 +1770,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1799,7 +1799,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1828,7 +1828,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1857,7 +1857,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1886,7 +1886,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1915,7 +1915,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1944,7 +1944,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1973,7 +1973,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2002,7 +2002,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2031,7 +2031,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2060,7 +2060,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2089,7 +2089,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2118,7 +2118,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2147,7 +2147,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2176,7 +2176,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2205,7 +2205,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2234,7 +2234,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2263,7 +2263,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2292,7 +2292,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2321,7 +2321,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -2350,7 +2350,7 @@
     critical: false
   success_rate: 100
   hit_type: 2
-  stype_id: 2
+  stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0

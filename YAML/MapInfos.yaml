@@ -1,10 +1,10 @@
 ---
 1: !ruby/object:RPG::MapInfo
-  scroll_x: 830
-  name: MAP001
+  scroll_x: 2043
+  name: za warudo
   expanded: true
   order: 1
-  scroll_y: 520
+  scroll_y: 371
   parent_id: 0
 2: !ruby/object:RPG::MapInfo
   scroll_x: 400
@@ -13,3 +13,31 @@
   order: 2
   scroll_y: 320
   parent_id: 1
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 1939
+  name: easy cave
+  expanded: false
+  order: 3
+  scroll_y: 320
+  parent_id: 1
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 942
+  name: evil castle or something
+  expanded: true
+  order: 4
+  scroll_y: 208
+  parent_id: 1
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: second floor
+  expanded: false
+  order: 6
+  scroll_y: 371
+  parent_id: 4
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: endless staircase
+  expanded: false
+  order: 5
+  scroll_y: 4817
+  parent_id: 4

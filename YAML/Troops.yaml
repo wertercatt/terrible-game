@@ -1080,10 +1080,10 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -1101,8 +1101,48 @@
       turn_b: 0
   id: 35
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 184
+    hidden: false
+    x: 160
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 176
+    hidden: false
+    x: 192
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 248
+    hidden: false
+    x: 208
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 200
+    hidden: false
+    x: 256
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 216
+    hidden: false
+    x: 312
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 176
+    hidden: false
+    x: 280
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 232
+    hidden: false
+    x: 280
+    enemy_id: 33
+  - !ruby/object:RPG::Troop::Member
+    y: 216
+    hidden: false
+    x: 224
+    enemy_id: 33
+  name: Swirlies
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1123,8 +1163,13 @@
       turn_b: 0
   id: 36
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 168
+    hidden: false
+    x: 272
+    enemy_id: 34
+  name: Cacodemon
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
