@@ -793,8 +793,8 @@
   etype_id: 0
   wtype_id: 5
 - !ruby/object:RPG::Weapon
-  description: Excellent sword with destructive power.
-  name: Zanbatou
+  description: Harness the power of shitty puns!
+  name: Kongtana
   icon_index: 148
   price: 498
   animation_id: 7
@@ -921,8 +921,8 @@
   etype_id: 0
   wtype_id: 5
 - !ruby/object:RPG::Weapon
-  description: A demonic sword that sucks the life of the wielder.
-  name: Muramasa Katana
+  description: "The Kongo Jungle's most\r\npowerful weapon."
+  name: Ultimate Kongtana
   icon_index: 148
   price: 30000
   animation_id: 7
@@ -1641,9 +1641,9 @@
   etype_id: 0
   wtype_id: 9
 - !ruby/object:RPG::Weapon
-  description: Silver amplifies the magic cast from this wand.
-  name: Force Wand
-  icon_index: 152
+  description: Kongo Jungle techniques amplify magic.
+  name: Barrel Leg
+  icon_index: 477
   price: 3000
   animation_id: 19
   note: ''

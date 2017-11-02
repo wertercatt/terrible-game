@@ -17,7 +17,7 @@
   - 0
   - 1
   - 0
-  nickname: some jerkoff
+  nickname: ''
   description: made this horrible thing
   max_level: 99
 - !ruby/object:RPG::Actor
@@ -37,7 +37,7 @@
   - 6
   - 1
   - 0
-  nickname: weeb
+  nickname: ''
   description: likes garbage anime
   max_level: 99
 - !ruby/object:RPG::Actor
@@ -57,7 +57,7 @@
   - 0
   - 1
   - 0
-  nickname: huge fucking nerd
+  nickname: ''
   description: likes garbage anime, but not as garbage as raz
   max_level: 99
 - !ruby/object:RPG::Actor
@@ -81,7 +81,7 @@
   - 0
   - 0
   - 0
-  nickname: Hero of Slimes
+  nickname: ''
   description: what a great guy
   max_level: 99
 - !ruby/object:RPG::Actor
@@ -101,28 +101,28 @@
   - 26
   - 21
   - 0
-  nickname: artfriend
+  nickname: ''
   description: "makes draw good and doesn't afraid\r\nof anything"
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Brenda
-  face_index: 1
-  character_index: 1
-  initial_level: 1
-  face_name: Actor5
-  class_id: 6
-  character_name: Actor5
+  name: Kat
+  face_index: 0
+  character_index: 0
+  initial_level: 4
+  face_name: katcakes
+  class_id: 9
+  character_name: katcakes2
   id: 6
   features: []
   note: ''
   equips:
-  - 31
+  - 20
   - 0
+  - 17
+  - 12
   - 0
-  - 1
-  - 0
-  nickname: Dark Green Aim
-  description: "A girl who's brought up by forest spirits. She loves\r\nnature and protects the forest from disturbance."
+  nickname: ''
+  description: made her own sprites because ben is lazy
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Rick
@@ -176,7 +176,7 @@
   features: []
   note: ''
   equips:
-  - 49
+  - 0
   - 0
   - 0
   - 1

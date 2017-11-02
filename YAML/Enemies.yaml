@@ -2443,16 +2443,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Dong
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 40
+  battler_name: dong
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 134
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2471,19 +2477,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 300
   - 0
+  - 40
+  - 25
   - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 15
+  - 1
+  - 1
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 5
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2495,16 +2501,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
-  battler_hue: 0
-  exp: 0
-  battler_name: ''
+  name: Bonzi Dong
+  gold: 150
+  battler_hue: 260
+  exp: 50
+  battler_name: dong
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 134
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2523,23 +2535,23 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 300
   - 0
+  - 40
+  - 25
   - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 15
+  - 1
+  - 1
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 5
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 128
+    kind: 2
+    data_id: 30
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2547,11 +2559,11 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Unspeakable Asshole
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 40
+  battler_name: diddy
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2575,19 +2587,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 200
   - 0
+  - 20
   - 10
   - 10
   - 10
-  - 10
-  - 10
+  - 999
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2599,11 +2611,11 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
-  battler_hue: 0
-  exp: 0
-  battler_name: ''
+  name: DIDDY HELL
+  gold: 100
+  battler_hue: 330
+  exp: 40
+  battler_name: diddy
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2627,23 +2639,23 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 200
   - 0
+  - 20
   - 10
   - 10
   - 10
-  - 10
-  - 10
+  - 1
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 128
+    kind: 2
+    data_id: 30
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2651,16 +2663,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Donkey Kong
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 50
+  battler_name: dkcrewdk
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 135
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2679,19 +2697,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 1500
   - 0
+  - 50
+  - 25
   - 10
-  - 10
-  - 10
-  - 10
+  - 15
   - 10
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
-    kind: 0
-    data_id: 1
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2703,16 +2721,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Tiny Kong
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 50
+  battler_name: dkcrewtiny
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 136
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2731,19 +2755,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 1000
   - 0
+  - 30
   - 10
   - 10
   - 10
-  - 10
-  - 10
+  - 40
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
-    kind: 0
-    data_id: 1
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2755,16 +2779,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Lanky Kong
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 50
+  battler_name: dkcrewlanky
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 137
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2783,7 +2813,7 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 1300
   - 0
   - 10
   - 10
@@ -2794,8 +2824,8 @@
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
-    kind: 0
-    data_id: 1
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2807,16 +2837,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Diddy Kong
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 50
+  battler_name: dkcrewdiddy
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 138
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2835,19 +2871,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 1200
   - 0
+  - 40
   - 10
   - 10
   - 10
-  - 10
-  - 10
+  - 30
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
-    kind: 0
-    data_id: 1
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2859,16 +2895,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Chunky Kong
+  gold: 100
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 50
+  battler_name: dkcrewchunky
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 139
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2887,19 +2929,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 2000
   - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 60
+  - 30
+  - 1
+  - 1
+  - 1
+  - 1
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
-    kind: 0
-    data_id: 1
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2911,16 +2953,28 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: HE
+  gold: 1000
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 500
+  battler_name: HE
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 137
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 140
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2939,23 +2993,23 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 7000
   - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 80
+  - 20
+  - 80
+  - 20
+  - 30
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 128
+    kind: 2
+    data_id: 30
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
-    kind: 0
-    data_id: 1
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0

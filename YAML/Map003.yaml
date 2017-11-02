@@ -70,6 +70,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...You''re serious.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [fuck caves]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -83,6 +84,59 @@ events:
           - &1 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [not happening]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &2 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -503,7 +557,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['yo, niki?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [niki, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Oh, hey, Ben and Raz. What are you doing']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['oh, hey, ben and raz. what are you doing']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['here?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [raz, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ben didn't want to go through a cave.]}
@@ -514,13 +568,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Didn't really take you for a mountain]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [climber.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [niki, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My bus went off course.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [my bus went off course.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['i''ll say, jesus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [raz, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Wanna come with us?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [niki, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sure, why not.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['sure, why not.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [3, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 129, p: [5, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
@@ -618,17 +672,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &2 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - &3 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &4 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &5 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &6 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
+          - &3 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &5 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
+          - &6 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - &7 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 127, p: [50, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -726,17 +780,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &7 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - &8 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &9 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &10 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &11 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
+          - &8 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &10 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
+          - &11 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - &12 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*8]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*9]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*10]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*11]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 128, p: [2, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -834,17 +888,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &12 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - &13 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &14 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &15 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &16 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
+          - &13 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &14 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &15 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
+          - &16 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - &17 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*15]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*17]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 127, p: [20, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -973,8 +1027,8 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000

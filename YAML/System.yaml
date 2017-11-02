@@ -23,15 +23,42 @@ airship: !ruby/object:RPG::System::Vehicle
 test_battlers:
 - !ruby/object:RPG::System::TestBattler
   actor_id: 1
-  level: 1
+  level: 5
   equips:
-  - 1
+  - 20
   - 46
   - 0
   - 1
   - 0
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 2
+  level: 5
+  equips:
+  - 26
+  - 0
+  - 6
+  - 1
+  - 0
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 5
+  level: 5
+  equips:
+  - 51
+  - 0
+  - 26
+  - 21
+  - 0
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 6
+  level: 5
+  equips:
+  - 20
+  - 0
+  - 17
+  - 12
+  - 0
 _: 7829367
-edit_map_id: 1
+edit_map_id: 12
 battle_end_me: !ruby/object:RPG::ME
   name: Victory1
   pitch: 100
@@ -175,7 +202,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}
-version_id: 65642740
+version_id: 76035316
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -188,7 +215,7 @@ switches:
 - orange boulder ded
 - nyar quest received
 - cate beaten
-- ''
+- kat in party
 - ''
 - ''
 - ''
@@ -337,7 +364,7 @@ terms: !ruby/object:RPG::System::Terms
   - MP
   - TP
   - TP
-test_troop_id: 1
+test_troop_id: 46
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
@@ -380,8 +407,8 @@ opt_followers: true
 opt_slip_death: false
 opt_extra_exp: true
 opt_display_tp: true
-battleback1_name: Grassland
-battleback2_name: Grassland
+battleback1_name: DemonicWorld1
+battleback2_name: GrassMaze
 title1_name: Universe
 title2_name: Mountains
 opt_floor_death: false

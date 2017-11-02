@@ -510,3 +510,38 @@
   itype_id: 1
   repeats: 1
   tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Ohhhhhhhhh, banana.\r\nRecovers 250 HP and 25 MP."
+  name: Banana Bunch
+  consumable: true
+  occasion: 0
+  icon_index: 528
+  price: 50
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 17
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 250.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 25.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0

@@ -1217,8 +1217,13 @@
       turn_b: 0
   id: 38
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 36
+  name: Dong
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1239,8 +1244,13 @@
       turn_b: 0
   id: 39
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 37
+  name: Bonzi Dong
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1261,8 +1271,18 @@
       turn_b: 0
   id: 40
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 176
+    enemy_id: 36
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 368
+    enemy_id: 37
+  name: Dong, Bonzi Dong
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1283,8 +1303,23 @@
       turn_b: 0
   id: 41
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 108
+    enemy_id: 38
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 38
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 436
+    enemy_id: 38
+  name: Unspeakable Asshole*3
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1305,8 +1340,18 @@
       turn_b: 0
   id: 42
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 176
+    enemy_id: 36
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 436
+    enemy_id: 38
+  name: DK And Diddy
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1327,8 +1372,48 @@
       turn_b: 0
   id: 43
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 108
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 155
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 202
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 249
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 296
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 343
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 390
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 437
+    enemy_id: 39
+  name: DIDDY HELL
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1349,8 +1434,33 @@
       turn_b: 0
   id: 44
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 72
+    enemy_id: 40
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 145
+    enemy_id: 41
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 243
+    enemy_id: 42
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 343
+    enemy_id: 43
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 446
+    enemy_id: 44
+  name: DK Crew
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1371,8 +1481,13 @@
       turn_b: 0
   id: 45
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 45
+  name: HE
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

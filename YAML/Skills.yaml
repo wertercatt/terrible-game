@@ -1663,10 +1663,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals fire damage to one enemy.
-  name: Fire
+  name: FIRE
   occasion: 1
   icon_index: 96
-  message1: ' casts Fire!'
+  message1: ' casts FIRE!'
   scope: 1
   animation_id: 57
   note: ''
@@ -1692,10 +1692,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals fire damage to one enemy.
-  name: Fire II
+  name: FIR3
   occasion: 1
   icon_index: 96
-  message1: ' casts Fire II!'
+  message1: ' casts FIR3!'
   scope: 1
   animation_id: 58
   note: ''
@@ -1721,10 +1721,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals fire damage to all enemies.
-  name: Flame
+  name: FIR2
   occasion: 1
   icon_index: 96
-  message1: ' casts Flame!'
+  message1: ' casts FIR2!'
   scope: 2
   animation_id: 59
   note: ''
@@ -1750,10 +1750,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals fire damage to all enemies.
-  name: Flame II
+  name: FIR4
   occasion: 1
   icon_index: 96
-  message1: ' casts Flame II!'
+  message1: ' casts FIR4!'
   scope: 2
   animation_id: 60
   note: ''
@@ -1779,10 +1779,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals ice damage to one enemy.
-  name: Ice
+  name: ICE
   occasion: 1
   icon_index: 97
-  message1: ' casts Ice!'
+  message1: ' casts ICE!'
   scope: 1
   animation_id: 61
   note: ''
@@ -1808,10 +1808,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals ice damage to one enemy.
-  name: Ice II
+  name: ICE3
   occasion: 1
   icon_index: 97
-  message1: ' casts Ice II!'
+  message1: ' casts ICE3!'
   scope: 1
   animation_id: 62
   note: ''
@@ -1837,10 +1837,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals ice damage to all enemies.
-  name: Blizzard
+  name: ICE2
   occasion: 1
   icon_index: 97
-  message1: ' casts Blizzard!'
+  message1: ' casts ICE2!'
   scope: 2
   animation_id: 63
   note: ''
@@ -1866,10 +1866,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals ice damage to all enemies.
-  name: Blizzard II
+  name: ICE4
   occasion: 1
   icon_index: 97
-  message1: ' casts Blizzard II!'
+  message1: ' casts ICE4!'
   scope: 2
   animation_id: 64
   note: ''
@@ -1895,10 +1895,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals lightning damage to one enemy.
-  name: Thunder
+  name: LIT
   occasion: 1
   icon_index: 98
-  message1: ' casts Thunder!'
+  message1: ' casts LIT!'
   scope: 1
   animation_id: 65
   note: ''
@@ -1924,10 +1924,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals lightning damage to one enemy.
-  name: Thunder II
+  name: LIT3
   occasion: 1
   icon_index: 98
-  message1: ' casts Thunder II!'
+  message1: ' casts LIT3!'
   scope: 1
   animation_id: 66
   note: ''
@@ -1953,10 +1953,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals lightning damage to all enemies.
-  name: Spark
+  name: LIT2
   occasion: 1
   icon_index: 98
-  message1: ' casts Spark!'
+  message1: ' casts LIT2!'
   scope: 2
   animation_id: 67
   note: ''
@@ -1982,10 +1982,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals lightning damage to all enemies.
-  name: Spark II
+  name: LIT4
   occasion: 1
   icon_index: 98
-  message1: ' casts Spark II!'
+  message1: ' casts LIT4!'
   scope: 2
   animation_id: 68
   note: ''
@@ -2011,10 +2011,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals water damage to one enemy.
-  name: Water
+  name: WATR
   occasion: 1
   icon_index: 99
-  message1: ' casts Water!'
+  message1: ' casts WATR!'
   scope: 1
   animation_id: 69
   note: ''
@@ -2040,10 +2040,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals water damage to all enemies.
-  name: Wave
+  name: WAT2
   occasion: 1
   icon_index: 99
-  message1: ' casts Wave!'
+  message1: ' casts WAT2!'
   scope: 2
   animation_id: 70
   note: ''
@@ -2069,10 +2069,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals earth damage to one enemy.
-  name: Stone
+  name: ROCK
   occasion: 1
   icon_index: 100
-  message1: ' casts Stone!'
+  message1: ' casts ROCK!'
   scope: 1
   animation_id: 71
   note: ''
@@ -2098,10 +2098,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals earth damage to all enemies.
-  name: Quake
+  name: ROC2
   occasion: 1
   icon_index: 100
-  message1: ' casts Quake!'
+  message1: ' casts ROC2!'
   scope: 2
   animation_id: 72
   note: ''
@@ -2127,10 +2127,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals wind damage to one enemy.
-  name: Wind
+  name: WND
   occasion: 1
   icon_index: 101
-  message1: ' casts Wind!'
+  message1: ' casts WND!'
   scope: 1
   animation_id: 73
   note: ''
@@ -2156,10 +2156,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals wind damage to all enemies.
-  name: Tornado
+  name: WND2
   occasion: 1
   icon_index: 101
-  message1: ' casts Tornado!'
+  message1: ' casts WND2!'
   scope: 2
   animation_id: 74
   note: ''
@@ -2185,10 +2185,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals holy damage to one enemy.
-  name: Saint
+  name: FADE
   occasion: 1
   icon_index: 102
-  message1: ' casts Saint!'
+  message1: ' casts FADE!'
   scope: 1
   animation_id: 75
   note: ''
@@ -2214,10 +2214,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals holy damage to all enemies.
-  name: Starlight
+  name: FAD2
   occasion: 1
   icon_index: 102
-  message1: はスターライトを唱えた！
+  message1: ' casts FAD2!'
   scope: 2
   animation_id: 76
   note: ''
@@ -2243,10 +2243,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals dark damage to one enemy.
-  name: Shade
+  name: DRK
   occasion: 1
   icon_index: 103
-  message1: ' casts Shade!'
+  message1: ' casts DRK!'
   scope: 1
   animation_id: 77
   note: ''
@@ -2272,10 +2272,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals dark damage to all enemies.
-  name: Darkness
+  name: DRK2
   occasion: 1
   icon_index: 103
-  message1: ' casts Darkness!'
+  message1: ' casts DRK2!'
   scope: 2
   animation_id: 78
   note: ''
@@ -2301,10 +2301,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals defense ignoring damage to one enemy.
-  name: Burst
+  name: ZAP!
   occasion: 1
   icon_index: 119
-  message1: ' casts Burst!'
+  message1: ' casts ZAP!!'
   scope: 1
   animation_id: 79
   note: ''
@@ -2330,10 +2330,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Deals defense ignoring damage to all enemies.
-  name: Nuclear
+  name: NUKE
   occasion: 1
   icon_index: 119
-  message1: ' casts Nuclear!'
+  message1: ' casts NUKE!'
   scope: 2
   animation_id: 80
   note: ''
@@ -4187,7 +4187,7 @@
   message2: ''
   description: looks cool but kinda useless
   name: Some Anime Bullshit
-  occasion: 0
+  occasion: 1
   icon_index: 12
   message1: ' does some anime bullshit!'
   scope: 1
@@ -4201,8 +4201,8 @@
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
     element_id: 11
-    formula: '100'
-    variance: 0
+    formula: a.atk * 2 - b.def * 2
+    variance: 20
     critical: false
   success_rate: 100
   hit_type: 0
@@ -4289,7 +4289,7 @@
   message2: ''
   description: "Give the opponent a loaded compliment to\r\ninflict a Burn."
   name: Backhanded Compliment
-  occasion: 0
+  occasion: 1
   icon_index: 488
   message1: ' gave a backhanded compliment!'
   scope: 1
@@ -4350,13 +4350,13 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
-  icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  description: ">tfw no wonderful ones\r\nDeals physical damage to all enemies."
+  name: Unite Sword
+  occasion: 1
+  icon_index: 131
+  message1: ' uses Unite Sword!'
+  scope: 2
+  animation_id: 11
   note: ''
   mp_cost: 0
   speed: 0
@@ -4364,34 +4364,44 @@
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 1
+    element_id: 1
+    formula: 300 + a.atk * 0.08 - b.def * 0.04
     variance: 20
     critical: false
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 0
-  required_wtype_id1: 0
+  tp_cost: 30
+  required_wtype_id1: 4
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: ENEMY SKILL
+  name: Expand
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
+  message1: ' expands!'
+  scope: 11
   animation_id: 0
   note: ''
   mp_cost: 0
   speed: 0
   id: 134
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 2
+    value1: 5.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 3
+    value1: 5.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -4407,14 +4417,14 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: ''
-  name: ''
+  message2: It fires in spurts!
+  description: ENEMY SKILL
+  name: Coconut Gun
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  message1: ' uses his coconut gun!'
+  scope: 6
+  animation_id: 91
   note: ''
   mp_cost: 0
   speed: 0
@@ -4422,13 +4432,13 @@
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: '50'
     variance: 20
     critical: false
   success_rate: 100
-  hit_type: 0
+  hit_type: 1
   stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
@@ -4437,19 +4447,24 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: ENEMY SKILL
+  name: Shrink In Size
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
+  message1: ' shrinks in size to suit her mood!'
+  scope: 11
   animation_id: 0
   note: ''
   mp_cost: 0
   speed: 0
   id: 136
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 6
+    value1: 5.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -4466,19 +4481,29 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: ENEMY SKILL
+  name: Inflate Self
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
+  message1: ' inflates himself just like a balloon!'
+  scope: 11
   animation_id: 0
   note: ''
   mp_cost: 0
   speed: 0
   id: 137
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 3
+    value1: 5.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 32
+    data_id: 6
+    value1: 5.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -4494,13 +4519,13 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: ''
-  name: ''
+  message2: He's one tough Kong!
+  description: ENEMY SKILL
+  name: Peanut Popgun
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
+  message1: ' gets his pistols out!'
+  scope: 4
   animation_id: 0
   note: ''
   mp_cost: 0
@@ -4509,13 +4534,13 @@
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: '60'
     variance: 20
     critical: false
   success_rate: 100
-  hit_type: 0
+  hit_type: 1
   stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
@@ -4523,12 +4548,12 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: ''
-  name: ''
+  message2: He tosses it!
+  description: ENEMY SKILL
+  name: Pick Up Boulder
   occasion: 0
   icon_index: 0
-  message1: ''
+  message1: ' picks up a boulder with relative ease!'
   scope: 1
   animation_id: 0
   note: ''
@@ -4538,13 +4563,13 @@
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: '80'
     variance: 20
     critical: false
   success_rate: 100
-  hit_type: 0
+  hit_type: 1
   stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
@@ -4553,13 +4578,13 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: ENEMY SKILL
+  name: Inexplicable Attack
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  message1: ' did something ungraspable!'
+  scope: 2
+  animation_id: 30
   note: ''
   mp_cost: 0
   speed: 0
@@ -4567,13 +4592,13 @@
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: 100 + a.mat * 0.4 - b.mdf * 0.4
     variance: 20
     critical: false
   success_rate: 100
-  hit_type: 0
+  hit_type: 2
   stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
