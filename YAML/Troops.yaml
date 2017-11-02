@@ -1582,8 +1582,48 @@
       turn_b: 0
   id: 48
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 91
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 224
+    hidden: false
+    x: 144
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 195
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 224
+    hidden: false
+    x: 248
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 296
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 224
+    hidden: false
+    x: 352
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 403
+    enemy_id: 51
+  - !ruby/object:RPG::Troop::Member
+    y: 224
+    hidden: false
+    x: 456
+    enemy_id: 51
+  name: Knuckles & Knuckles & Knuckles &...
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1604,8 +1644,13 @@
       turn_b: 0
   id: 49
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 264
+    enemy_id: 52
+  name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

@@ -3211,7 +3211,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: Unarmed_Thief_m
+  battler_name: shotachronos
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -3371,11 +3371,11 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: Knuckles
+  gold: 6969
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 6969
+  battler_name: knuckles
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -3399,13 +3399,13 @@
     data_id: 1
     value: 0
   params:
+  - 2000
+  - 20
   - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 50
+  - 1
+  - 1
+  - 30
   - 10
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
@@ -3423,19 +3423,19 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
+  name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  gold: 444
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 444
+  battler_name: DRUID AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
-    skill_id: 1
+    skill_id: 144
     condition_param2: 0
     condition_param1: 0
-  note: ''
+  note: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   id: 52
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3451,14 +3451,14 @@
     data_id: 1
     value: 0
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 444
+  - 444
+  - 44
+  - 44
+  - 44
+  - 44
+  - 44
+  - 44
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1

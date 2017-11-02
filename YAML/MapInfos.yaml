@@ -105,11 +105,11 @@
   scroll_y: 1920
   parent_id: 1
 16: !ruby/object:RPG::MapInfo
-  scroll_x: 1316
+  scroll_x: 2045
   name: sonic zone act 1
   expanded: false
   order: 14
-  scroll_y: 480
+  scroll_y: 588
   parent_id: 1
 17: !ruby/object:RPG::MapInfo
   scroll_x: 528
@@ -145,7 +145,7 @@
   expanded: true
   order: 21
   scroll_y: 1300
-  parent_id: 0
+  parent_id: 1
 22: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: mount shiny cave
@@ -158,5 +158,12 @@
   name: shota chronos's magicant
   expanded: false
   order: 23
-  scroll_y: 766
+  scroll_y: 758
   parent_id: 22
+24: !ruby/object:RPG::MapInfo
+  scroll_x: 1646
+  name: retail hell
+  expanded: false
+  order: 24
+  scroll_y: 7034
+  parent_id: 1

@@ -48,12 +48,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [are you shota chronos]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Leave me alone!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Leδve me δlθne!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [niki, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['hey, calm down, we just need you to come']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [back to town so we can-]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [No! I don't wanna!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nθ! I dθn't wδnnδ!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [raz, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This is a joke, right?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [katcakes, 0, 0, 0]}
@@ -65,17 +65,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [some kind of spiritual awakening or some]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [shit]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't want a spiritual awakening!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Leave me alone!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I dθn't wδnt δ spirituδl δwδkening!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Leδve me δlθne!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: Beat Them Up, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 48, false, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I-I'm sorry! Please stop!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I-I'm sθrry! Pleδse stθp!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [raz, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This fucking kid...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [W-Waaaaaaaaaaaaaaaaah!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [W-Wδδδδδδδδδδδδδδh!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...goddammit']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [niki, 0, 0, 2]}
@@ -85,9 +85,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['another, so will you just stop crying']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and come back to town with us?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['B-Back to town?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['B-Bδck tθ tθwn?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [shota chronos, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Okay...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Okδy...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 17, 8, 13, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...well, that was fast']}

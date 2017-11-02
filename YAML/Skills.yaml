@@ -4703,34 +4703,39 @@
   repeats: 2
   tp_gain: 3
 - !ruby/object:RPG::Skill
-  message2: ''
-  description: ''
-  name: ''
-  occasion: 0
-  icon_index: 0
-  message1: ''
+  message2: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  description: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\r\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  occasion: 1
+  icon_index: 116
+  message1: ' AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
   scope: 1
-  animation_id: 0
+  animation_id: 34
   note: ''
   mp_cost: 0
   speed: 0
   id: 144
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
     variance: 20
-    critical: false
+    critical: true
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
+  hit_type: 1
+  stype_id: 0
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
-  tp_gain: 0
+  tp_gain: 5
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''

@@ -68,7 +68,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['i''m so sorry for my friend''s behavior,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [sir...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [seth, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s okαy, hun.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s okαy, bαbe.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [niki, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ben, 0, 0, 2]}

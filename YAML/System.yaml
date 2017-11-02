@@ -58,7 +58,7 @@ test_battlers:
   - 12
   - 0
 _: 7829367
-edit_map_id: 23
+edit_map_id: 24
 battle_end_me: !ruby/object:RPG::ME
   name: wario victory
   pitch: 100
@@ -202,7 +202,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}
-version_id: 13351943
+version_id: 88166119
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -364,7 +364,7 @@ terms: !ruby/object:RPG::System::Terms
   - TP
   - Limit Points
   - LP
-test_troop_id: 48
+test_troop_id: 32
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
