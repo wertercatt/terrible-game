@@ -24,8 +24,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Made with the best leather.
-  name: Leather Top
+  description: Made with the best pleather.
+  name: Pleather Top
   icon_index: 168
   price: 300
   note: ''
@@ -628,7 +628,7 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: A hat made out of leather.
+  description: A hap made out of leather.
   name: Leather Hap
   icon_index: 163
   price: 100
@@ -1635,10 +1635,10 @@
   etype_id: 3
   atype_id: 7
 - !ruby/object:RPG::Armor
-  description: ''
-  name: ''
-  icon_index: 0
-  price: 0
+  description: This is some expensive DLC!
+  name: Promotional Doritos Armor
+  icon_index: 437
+  price: 3000
   note: ''
   id: 63
   features:
@@ -1650,13 +1650,13 @@
   - 0
   - 0
   - 0
+  - 10
   - 0
   - 0
   - 0
   - 0
-  - 0
-  etype_id: 1
-  atype_id: 0
+  etype_id: 3
+  atype_id: 3
 - !ruby/object:RPG::Armor
   description: ''
   name: ''

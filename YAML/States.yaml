@@ -720,3 +720,45 @@
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
+- !ruby/object:RPG::State
+  message2: ' has become Crosseyed and Painless!'
+  name: Crosseyed and Painless
+  priority: 50
+  icon_index: 12
+  message1: ' has become Crosseyed and Painless!'
+  message4: ' is no longer Crosseyed and Painless!'
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 10.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 10.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 1.0
+  auto_removal_timing: 1
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''

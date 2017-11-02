@@ -23,44 +23,44 @@ airship: !ruby/object:RPG::System::Vehicle
 test_battlers:
 - !ruby/object:RPG::System::TestBattler
   actor_id: 1
-  level: 5
+  level: 10
   equips:
-  - 20
+  - 63
   - 46
   - 0
-  - 1
+  - 63
   - 0
 - !ruby/object:RPG::System::TestBattler
   actor_id: 2
-  level: 5
+  level: 10
   equips:
   - 26
   - 0
   - 6
-  - 1
+  - 63
   - 0
 - !ruby/object:RPG::System::TestBattler
   actor_id: 5
-  level: 5
+  level: 10
   equips:
   - 51
   - 0
   - 26
-  - 21
+  - 63
   - 0
 - !ruby/object:RPG::System::TestBattler
   actor_id: 6
-  level: 5
+  level: 10
   equips:
-  - 20
+  - 63
   - 0
   - 17
   - 12
   - 0
 _: 7829367
-edit_map_id: 12
+edit_map_id: 23
 battle_end_me: !ruby/object:RPG::ME
-  name: Victory1
+  name: wario victory
   pitch: 100
   volume: 100
 party_members:
@@ -202,7 +202,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: shi kong xing shou battle theme, volume: 100, pitch: 100}
-version_id: 76035316
+version_id: 13351943
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -216,8 +216,8 @@ switches:
 - nyar quest received
 - cate beaten
 - kat in party
-- ''
-- ''
+- shota chronos beaten
+- shota chronos quest received
 - ''
 - ''
 - ''
@@ -309,11 +309,11 @@ switches:
 - ''
 - ''
 gameover_me: !ruby/object:RPG::ME
-  name: Organ
+  name: you are dead
   pitch: 100
   volume: 100
 game_title: terrible game
-title_bgm: !ruby/object:RPG::BGM {name: Theme1, volume: 100, pitch: 100}
+title_bgm: !ruby/object:RPG::BGM {name: Ai wo Torimodose ( 1st Opening Theme ) - Hokuto no Ken OST, volume: 100, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
   - MaxHP
@@ -360,11 +360,11 @@ terms: !ruby/object:RPG::System::Terms
   - LV
   - HP
   - HP
-  - MP
-  - MP
+  - Tech Points
   - TP
-  - TP
-test_troop_id: 46
+  - Limit Points
+  - LP
+test_troop_id: 48
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
@@ -407,8 +407,8 @@ opt_followers: true
 opt_slip_death: false
 opt_extra_exp: true
 opt_display_tp: true
-battleback1_name: DemonicWorld1
-battleback2_name: GrassMaze
+battleback1_name: Fort
+battleback2_name: Crystal
 title1_name: Universe
 title2_name: Mountains
 opt_floor_death: false

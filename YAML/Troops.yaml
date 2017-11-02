@@ -37,14 +37,14 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 207
+    x: 164
     enemy_id: 2
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 337
+    x: 380
     enemy_id: 2
-  name: Bat*2
+  name: Zubat*2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -101,7 +101,7 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 112
+    x: 108
     enemy_id: 4
   - !ruby/object:RPG::Troop::Member
     y: 288
@@ -111,9 +111,9 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 432
+    x: 436
     enemy_id: 4
-  name: Spider*3
+  name: Trubbish*3
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -212,14 +212,14 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 170
+    x: 202
     enemy_id: 7
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 374
+    x: 342
     enemy_id: 7
-  name: Large Snake*2
+  name: Kenshiro*2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -987,14 +987,14 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 207
+    x: 164
     enemy_id: 4
   - !ruby/object:RPG::Troop::Member
-    y: 200
+    y: 288
     hidden: false
-    x: 384
+    x: 380
     enemy_id: 2
-  name: Spider, Bat
+  name: Trubbish, Zubat
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1021,7 +1021,7 @@
     hidden: false
     x: 272
     enemy_id: 7
-  name: Large Snake
+  name: Kenshiro
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1048,7 +1048,7 @@
     hidden: false
     x: 272
     enemy_id: 4
-  name: Spider
+  name: Trubbish
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1508,8 +1508,23 @@
       turn_b: 0
   id: 46
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 120
+    enemy_id: 46
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 47
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 432
+    enemy_id: 48
+  name: Dankey Kang, Dongley Knog, Dink Knoig
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1530,8 +1545,23 @@
       turn_b: 0
   id: 47
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 116
+    enemy_id: 50
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 49
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 428
+    enemy_id: 50
+  name: Shota Chronos
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

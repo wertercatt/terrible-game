@@ -91,7 +91,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "all hail \\o/\r\nRecovers 50 MP."
+  description: "all hail o/\r\nRecovers 50 MP."
   name: egg
   consumable: true
   occasion: 0
@@ -516,7 +516,7 @@
   consumable: true
   occasion: 0
   icon_index: 528
-  price: 50
+  price: 100
   scope: 7
   animation_id: 37
   note: ''
@@ -534,6 +534,331 @@
     data_id: 0
     value1: 0.0
     value2: 25.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Seems plot-relevant.
+  name: Fire MacGuffin
+  consumable: true
+  occasion: 0
+  icon_index: 96
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 18
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Seems plot-relevant.
+  name: Earth MacGuffin
+  consumable: true
+  occasion: 0
+  icon_index: 100
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 19
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Seems plot-relevant.
+  name: Air MacGuffin
+  consumable: true
+  occasion: 0
+  icon_index: 101
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 20
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Seems plot-relevant.
+  name: Water MacGuffin
+  consumable: true
+  occasion: 0
+  icon_index: 99
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 21
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 22
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 23
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 24
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 25
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 26
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 27
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 28
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 29
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 30
+  features: []
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0

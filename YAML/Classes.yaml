@@ -11,6 +11,14 @@
     level: 1
     skill_id: 130
     note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 6
+    skill_id: 141
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 142
+    note: ''
   id: 1
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -515,6 +523,10 @@
   - !ruby/object:RPG::Class::Learning
     level: 5
     skill_id: 61
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 8
+    skill_id: 141
     note: ''
   id: 4
   features:

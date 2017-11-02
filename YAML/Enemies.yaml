@@ -57,12 +57,12 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Bat
+  name: Zubat
   gold: 10
   battler_hue: 0
   exp: 5
   hit: 95
-  battler_name: Bat
+  battler_name: zubat
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -185,12 +185,12 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Spider
+  name: Trubbish
   gold: 25
   battler_hue: 0
   exp: 13
   hit: 95
-  battler_name: Spider
+  battler_name: trubbish
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -373,12 +373,12 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Large Snake
+  name: Kenshiro
   gold: 70
   battler_hue: 0
   exp: 34
   hit: 95
-  battler_name: Snake
+  battler_name: Kenshiro
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2571,6 +2571,12 @@
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 3
+    skill_id: 143
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 38
   features:
@@ -2621,6 +2627,12 @@
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 3
+    skill_id: 143
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -3017,16 +3029,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
-  battler_hue: 0
-  exp: 0
-  battler_name: ''
+  name: Dankey Kang
+  gold: 100
+  battler_hue: 190
+  exp: 40
+  battler_name: dong
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 134
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -3045,19 +3063,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 300
   - 0
+  - 40
+  - 25
   - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 15
+  - 1
+  - 1
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 5
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -3069,16 +3087,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
-  battler_hue: 0
-  exp: 0
-  battler_name: ''
+  name: Dongley Knog
+  gold: 100
+  battler_hue: 330
+  exp: 40
+  battler_name: dong
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 134
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -3097,19 +3121,19 @@
     data_id: 1
     value: 0
   params:
-  - 100
+  - 300
   - 0
+  - 40
+  - 25
   - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 15
+  - 1
+  - 1
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 5
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -3121,16 +3145,22 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
-  gold: 0
-  battler_hue: 0
-  exp: 0
-  battler_name: ''
+  name: Dink Knoig
+  gold: 100
+  battler_hue: 90
+  exp: 40
+  battler_name: dong
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 134
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -3148,20 +3178,24 @@
     code: 31
     data_id: 1
     value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 11
+    value: 10.0
   params:
-  - 100
+  - 300
   - 0
+  - 40
+  - 25
   - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 15
+  - 1
+  - 1
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 5
+    kind: 1
+    data_id: 17
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -3173,16 +3207,76 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Shota Chronos
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: ''
+  battler_name: Unarmed_Thief_m
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 49
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 50
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 53
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 57
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 61
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 1
+    skill_id: 74
+    condition_param2: 0.5
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 5
+    skill_id: 128
+    condition_param2: 0.5
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 51
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 55
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 59
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -3201,6 +3295,110 @@
     data_id: 1
     value: 0
   params:
+  - 8000
+  - 9999
+  - 40
+  - 5
+  - 80
+  - 30
+  - 70
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: Flying Man
+  gold: 12
+  battler_hue: 0
+  exp: 80
+  battler_name: flying man
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 300
+  - 0
+  - 95
+  - 92
+  - 30
+  - 30
+  - 100
+  - 24
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
   - 100
   - 0
   - 10
@@ -3238,7 +3436,1203 @@
     condition_param2: 0
     condition_param1: 0
   note: ''
-  id: 50
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 62
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 100
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: ''
+  gold: 0
+  battler_hue: 0
+  exp: 0
+  battler_name: ''
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 75
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22

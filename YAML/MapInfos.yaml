@@ -1,85 +1,162 @@
 ---
 1: !ruby/object:RPG::MapInfo
-  scroll_x: 814
+  scroll_x: 2019
   name: za warudo
   expanded: true
   order: 1
-  scroll_y: 1544
+  scroll_y: 2221
   parent_id: 0
 2: !ruby/object:RPG::MapInfo
   scroll_x: 400
   name: raz's house
-  expanded: false
+  expanded: true
   order: 2
   scroll_y: 320
   parent_id: 1
 3: !ruby/object:RPG::MapInfo
-  scroll_x: 2527
+  scroll_x: 1806
   name: easy cave
   expanded: false
-  order: 3
+  order: 4
   scroll_y: 320
   parent_id: 1
 4: !ruby/object:RPG::MapInfo
-  scroll_x: 942
+  scroll_x: 800
   name: evil castle or something
   expanded: true
-  order: 4
+  order: 5
   scroll_y: 208
   parent_id: 1
 5: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: second floor
   expanded: false
-  order: 6
+  order: 7
   scroll_y: 371
   parent_id: 4
 6: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: endless staircase
   expanded: false
-  order: 5
+  order: 6
   scroll_y: 371
   parent_id: 4
 7: !ruby/object:RPG::MapInfo
   scroll_x: 480
   name: not a secret area
   expanded: false
-  order: 7
+  order: 8
   scroll_y: 320
   parent_id: 1
 8: !ruby/object:RPG::MapInfo
-  scroll_x: 1270
+  scroll_x: 960
   name: slime town
   expanded: true
-  order: 8
-  scroll_y: 371
+  order: 9
+  scroll_y: 640
   parent_id: 1
 9: !ruby/object:RPG::MapInfo
   scroll_x: 400
   name: fort thingy
   expanded: false
-  order: 9
-  scroll_y: 428
+  order: 10
+  scroll_y: 400
   parent_id: 8
 10: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: left house
   expanded: false
-  order: 10
+  order: 11
   scroll_y: 208
   parent_id: 8
 11: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: right house
   expanded: false
-  order: 11
+  order: 12
   scroll_y: 208
   parent_id: 8
 12: !ruby/object:RPG::MapInfo
-  scroll_x: 1367
+  scroll_x: 1298
   name: kongo jungle
   expanded: false
-  order: 12
-  scroll_y: 2828
+  order: 13
+  scroll_y: 2456
   parent_id: 1
+13: !ruby/object:RPG::MapInfo
+  scroll_x: 688
+  name: basement
+  expanded: false
+  order: 3
+  scroll_y: 672
+  parent_id: 2
+14: !ruby/object:RPG::MapInfo
+  scroll_x: 656
+  name: temple of macguffins
+  expanded: false
+  order: 15
+  scroll_y: 656
+  parent_id: 1
+15: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: fire dungeon
+  expanded: false
+  order: 16
+  scroll_y: 1920
+  parent_id: 1
+16: !ruby/object:RPG::MapInfo
+  scroll_x: 1316
+  name: sonic zone act 1
+  expanded: false
+  order: 14
+  scroll_y: 480
+  parent_id: 1
+17: !ruby/object:RPG::MapInfo
+  scroll_x: 528
+  name: town of seths
+  expanded: true
+  order: 17
+  scroll_y: 520
+  parent_id: 1
+18: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: hot topic
+  expanded: false
+  order: 18
+  scroll_y: 480
+  parent_id: 17
+19: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: house of aesthetics
+  expanded: false
+  order: 19
+  scroll_y: 208
+  parent_id: 17
+20: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: seth temple
+  expanded: false
+  order: 20
+  scroll_y: 400
+  parent_id: 17
+21: !ruby/object:RPG::MapInfo
+  scroll_x: 1750
+  name: mount shiny
+  expanded: true
+  order: 21
+  scroll_y: 1300
+  parent_id: 0
+22: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: mount shiny cave
+  expanded: true
+  order: 22
+  scroll_y: 742
+  parent_id: 21
+23: !ruby/object:RPG::MapInfo
+  scroll_x: 1298
+  name: shota chronos's magicant
+  expanded: false
+  order: 23
+  scroll_y: 766
+  parent_id: 22

@@ -2526,7 +2526,7 @@
   scope: 1
   animation_id: -1
   note: ''
-  mp_cost: 0
+  mp_cost: 10
   speed: 0
   id: 80
   features: []
@@ -2545,7 +2545,7 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 10
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2560,7 +2560,7 @@
   scope: 2
   animation_id: -1
   note: ''
-  mp_cost: 0
+  mp_cost: 10
   speed: 0
   id: 81
   features: []
@@ -2579,7 +2579,7 @@
   success_rate: 100
   hit_type: 1
   stype_id: 1
-  tp_cost: 10
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2594,7 +2594,7 @@
   scope: 8
   animation_id: 34
   note: ''
-  mp_cost: 0
+  mp_cost: 25
   speed: 0
   id: 82
   features: []
@@ -2613,7 +2613,7 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 25
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2628,7 +2628,7 @@
   scope: 5
   animation_id: -1
   note: ''
-  mp_cost: 0
+  mp_cost: 50
   speed: 0
   id: 83
   features: []
@@ -2642,7 +2642,7 @@
   success_rate: 100
   hit_type: 1
   stype_id: 1
-  tp_cost: 50
+  tp_cost: 0
   required_wtype_id1: 1
   required_wtype_id2: 0
   repeats: 1
@@ -2657,7 +2657,7 @@
   scope: 2
   animation_id: 12
   note: ''
-  mp_cost: 0
+  mp_cost: 100
   speed: 0
   id: 84
   features: []
@@ -2671,7 +2671,7 @@
   success_rate: 100
   hit_type: 1
   stype_id: 1
-  tp_cost: 100
+  tp_cost: 0
   required_wtype_id1: 1
   required_wtype_id2: 0
   repeats: 1
@@ -2686,7 +2686,7 @@
   scope: 1
   animation_id: 36
   note: ''
-  mp_cost: 0
+  mp_cost: 10
   speed: 0
   id: 85
   features: []
@@ -2705,7 +2705,7 @@
   success_rate: 100
   hit_type: 1
   stype_id: 1
-  tp_cost: 10
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2720,7 +2720,7 @@
   scope: 11
   animation_id: 38
   note: ''
-  mp_cost: 0
+  mp_cost: 10
   speed: 0
   id: 86
   features: []
@@ -2764,7 +2764,7 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 10
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2779,7 +2779,7 @@
   scope: 11
   animation_id: 43
   note: ''
-  mp_cost: 0
+  mp_cost: 25
   speed: 0
   id: 87
   features: []
@@ -2798,7 +2798,7 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 25
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2813,7 +2813,7 @@
   scope: 2
   animation_id: 5
   note: ''
-  mp_cost: 0
+  mp_cost: 50
   speed: 100
   id: 88
   features: []
@@ -2827,7 +2827,7 @@
   success_rate: 100
   hit_type: 1
   stype_id: 1
-  tp_cost: 50
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -2842,7 +2842,7 @@
   scope: 1
   animation_id: 86
   note: ''
-  mp_cost: 0
+  mp_cost: 100
   speed: 0
   id: 89
   features: []
@@ -2856,7 +2856,7 @@
   success_rate: 100
   hit_type: 1
   stype_id: 1
-  tp_cost: 100
+  tp_cost: 0
   required_wtype_id1: 2
   required_wtype_id2: 0
   repeats: 2
@@ -3131,10 +3131,10 @@
   occasion: 1
   icon_index: 45
   message1: ' casts Magic Barrier!'
-  scope: 11
+  scope: 8
   animation_id: 44
   note: ''
-  mp_cost: 0
+  mp_cost: 25
   speed: 0
   id: 97
   features: []
@@ -3158,7 +3158,7 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 25
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -3916,7 +3916,7 @@
   scope: 11
   animation_id: 43
   note: ''
-  mp_cost: 0
+  mp_cost: 25
   speed: 0
   id: 120
   features: []
@@ -3940,7 +3940,7 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 25
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -4366,13 +4366,13 @@
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
     element_id: 1
-    formula: 300 + a.atk * 0.08 - b.def * 0.04
+    formula: 3000 + a.atk * 0.08 - b.def * 0.04
     variance: 20
     critical: false
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 30
+  tp_cost: 40
   required_wtype_id1: 4
   required_wtype_id2: 0
   repeats: 1
@@ -4607,24 +4607,24 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: "Blatantly stealing from better games: always\r\na fun option. Now with whole-party effect!"
+  name: PSI Lifeup β
   occasion: 0
-  icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  icon_index: 112
+  message1: ' tried PSI Lifeup β!'
+  scope: 8
+  animation_id: 42
   note: ''
-  mp_cost: 0
+  mp_cost: 12
   speed: 0
   id: 141
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 3
     element_id: 0
-    formula: '0'
-    variance: 20
+    formula: '300'
+    variance: 30
     critical: false
   success_rate: 100
   hit_type: 0
@@ -4636,62 +4636,72 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
-  icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  description: "Call upon the power of your Stand.\r\nBecome immune to all attack for 5 turns."
+  name: Once In A Lifetime
+  occasion: 1
+  icon_index: 12
+  message1: ' uses Once In A Lifetime!'
+  scope: 11
+  animation_id: 41
   note: ''
   mp_cost: 0
   speed: 0
   id: 142
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 27
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
-    element_id: 0
-    formula: '0'
+    element_id: 1
+    formula: 3000 + a.atk * 0.08 - b.def * 0.04
     variance: 20
     critical: false
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 0
-  required_wtype_id1: 0
+  tp_cost: 40
+  required_wtype_id1: 4
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
-  icon_index: 0
-  message1: ''
+  description: Hits an enemy twice!
+  name: HOO HAH
+  occasion: 1
+  icon_index: 116
+  message1: ' uses HOO HAH!'
   scope: 1
-  animation_id: 0
+  animation_id: -1
   note: ''
   mp_cost: 0
   speed: 0
   id: 143
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
     variance: 20
-    critical: false
+    critical: true
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
+  hit_type: 1
+  stype_id: 0
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
+  repeats: 2
+  tp_gain: 3
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''

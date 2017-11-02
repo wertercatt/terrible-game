@@ -2041,11 +2041,11 @@
   etype_id: 0
   wtype_id: 4
 - !ruby/object:RPG::Weapon
-  description: ''
-  name: ''
-  icon_index: 0
-  price: 0
-  animation_id: 0
+  description: A truly legendary weapon.
+  name: Fedora Edge
+  icon_index: 393
+  price: 1000
+  animation_id: 7
   note: ''
   id: 63
   features:
@@ -2060,14 +2060,14 @@
   params:
   - 0
   - 0
-  - 0
+  - 30
   - 0
   - 0
   - 0
   - 0
   - 0
   etype_id: 0
-  wtype_id: 0
+  wtype_id: 4
 - !ruby/object:RPG::Weapon
   description: ''
   name: ''
